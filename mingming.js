@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         B站视频加速器
 // @namespace    http://tampermonkey.net/
-// @version      0.5
+// @version      0.6
 // @description  让B站的视频速度加倍加倍！！
 // @author       黎明明
 // @match        https://www.bilibili.com/video*
