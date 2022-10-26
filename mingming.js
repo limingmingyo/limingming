@@ -15,13 +15,17 @@
     document.querySelector('video').playbackRate=1
     let start= document.querySelector('.bpx-player-ctrl-time-current').innerText
     let end= document.querySelector('.bpx-player-ctrl-time-duration').innerText
-    let str=''
-    for(i=0.5;i<16;i+=0.5){
-       str =`
-        <li class="bpx-player-ctrl-playbackrate-menu-item" data-value="${i}">${i}x</li>
-        `
-    }
-    document.querySelector('.bpx-player-ctrl-playbackrate-menu').innerHTML=str
+    //获取倍数
+    document.querySelector('.bpx-player-ctrl-playbackrate-result').addEventListener('mouseover',()=>{
+        let str=''
+        for(i=0.5;i<16;i+=0.5){
+           str =`
+            <li class="bpx-player-ctrl-playbackrate-menu-item" data-value="${i}">${i}x</li>
+            `
+        }
+        document.querySelector('.bpx-player-ctrl-playbackrate-menu').innerHTML=str
+    })
+   
 
     
     // Your code here...
