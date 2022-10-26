@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         超有用超厉害
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  赶紧用起来，很好用，很快!
 // @author       黎明明
 // @match        https://www.baidu.com/baidu?tn=monline_3_dg&ie=utf-8&wd=github
