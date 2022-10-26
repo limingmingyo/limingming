@@ -12,6 +12,6 @@
 
 (function() {
     'use strict';
-    console.log('woshilimingming11123')
+    document.querySelector('video').playbackRate=2
     // Your code here...
 })();
