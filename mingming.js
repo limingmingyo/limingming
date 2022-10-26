@@ -12,7 +12,7 @@
 
 (function() {
     'use strict';
-    document.querySelector('video').playbackRate=2
+    document.querySelector('video').playbackRate=16
     console.log(document.querySelector('video'),"123321")
     // Your code here...
 })();
