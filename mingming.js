@@ -12,7 +12,17 @@
 
 (function() {
     'use strict';
-    document.querySelector('video').playbackRate=16
-    console.log(document.querySelector('video'),"123321")
+    document.querySelector('video').playbackRate=1
+    let start= document.querySelector('.bpx-player-ctrl-time-current').innerText
+    let end= document.querySelector('.bpx-player-ctrl-time-duration').innerText
+    let str=''
+    for(i=0.5;i<16;i+=0.5){
+       str =`
+        <li class="bpx-player-ctrl-playbackrate-menu-item" data-value="${i}">${i}x</li>
+        `
+    }
+    document.querySelector('.bpx-player-ctrl-playbackrate-menu').innerHTML=str
+
+    
     // Your code here...
 })();
