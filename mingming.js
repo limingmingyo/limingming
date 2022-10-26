@@ -12,6 +12,6 @@
 
 (function() {
     'use strict';
-
-    console.log('我是黎明明')
+    console.log('woshilimingming')
+    // Your code here...
 })();
