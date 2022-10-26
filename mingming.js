@@ -13,5 +13,5 @@
 (function() {
     'use strict';
 
-    // Your code here...
+    console.log('我是黎明明')
 })();
